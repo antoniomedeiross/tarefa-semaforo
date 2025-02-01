@@ -2,9 +2,9 @@
 #include "pico/stdlib.h"
 #include "hardware/timer.h"
 
-#define LED_RED 2
-#define LED_YELLOW 3
-#define LED_GREEN 4
+#define LED_RED 11
+#define LED_YELLOW 12
+#define LED_GREEN 13
 
 volatile int state = 0;
 
